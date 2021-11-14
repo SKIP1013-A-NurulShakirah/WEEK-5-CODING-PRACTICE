@@ -1,0 +1,32 @@
+
+/*Question: Display a message "Excellent!" for a student whose cumulative grade point 
+ *          average(CGPA) is 3.75 or above. Otherwise, display a message "Strive harder".
+ */
+
+
+
+package self_programming;
+
+import java.util.Scanner;
+
+public class Exercise_1b {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double pointer;
+		
+		System.out.print("Enter CGPA : ");
+		pointer = sc.nextDouble();
+		
+		if (pointer >= 3.75)
+			System.out.print("\nExcellent!");
+		
+		else
+			System.out.print("\nStrive harder");
+
+	}
+
+}
