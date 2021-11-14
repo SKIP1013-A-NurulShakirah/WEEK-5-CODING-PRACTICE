@@ -1,0 +1,23 @@
+//Question 1 : Print "Hello World" if x is greater than y.
+//Question 2 : Print "Hello Everyone" if x is equal to y.
+
+package self_programming;
+
+public class Example5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int x = 50;
+		int y = 10;
+		
+		if (x > y)
+			System.out.println("\"Hello World\"");
+		
+		if (x == y)
+			System.out.println("\"Hello Everyone\"");
+				
+
+	}
+
+}
