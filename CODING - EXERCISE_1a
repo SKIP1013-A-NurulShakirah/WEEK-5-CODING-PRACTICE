@@ -1,0 +1,27 @@
+
+//Question : If radius is equal to zero, print the message "Invalid radius".
+
+
+
+package self_programming;
+
+import java.util.Scanner;
+
+public class Exercise_1a {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double r;
+		
+		System.out.print("Enter radius : ");
+		r = sc.nextDouble();
+		
+		if (r == 0)
+			System.out.print("\nInvalid radius");
+
+	}
+
+}
