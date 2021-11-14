@@ -1,0 +1,28 @@
+//Question: Calculate area of a circle when radius is greater than 0 and display the area.
+
+package self_programming;
+
+import java.util.Scanner;
+
+public class Example3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double r, area;
+		
+		System.out.print("Enter radius : ");
+		r = sc.nextDouble();
+		
+		if ( r > 0)
+		{
+			area = 3.142 * r * r;
+			System.out.print("The area is " +area);
+		}
+			
+
+	}
+
+}
