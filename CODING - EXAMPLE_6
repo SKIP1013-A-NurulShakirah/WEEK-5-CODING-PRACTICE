@@ -1,0 +1,28 @@
+package self_programming;
+
+import java.util.Scanner;
+
+public class Example6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int mark;
+		
+		System.out.print("Enter mark : ");
+		mark = sc.nextInt();
+		
+		if (mark >=90)
+			System.out.print("\"Excellent!\"");
+		
+		else
+			System.out.print("\"Better luck next time.\"");
+		
+		//Here the message "Excellent!" will be displayed on the output screen if the marks entered is greater than or equal to 90. 
+		//Otherwise, the message will "Better luck next time." will be displayed.
+
+	}
+
+}
