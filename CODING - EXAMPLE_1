@@ -1,0 +1,27 @@
+
+//Question: Create a program that will accept student's mark. If the mark is greater than 40, print the message "PASS".
+
+
+package self_programming;
+
+import java.util.Scanner;
+
+public class Example1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner input = new Scanner(System.in);
+		double mark;
+		
+		System.out.print("Enter mark : ");
+		mark = input.nextDouble();
+		
+		if (mark > 40)
+			System.out.println("PASS");
+		
+		
+
+	}
+
+}
