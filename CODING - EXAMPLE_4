@@ -1,0 +1,26 @@
+
+//Question: Print the message "You are not entitled to vote." for a person whose age is below 20.
+
+
+package self_programming;
+
+import java.util.Scanner;
+
+public class Example4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int age;
+		
+		System.out.print("Please enter your age : ");
+		age = sc.nextInt();
+		
+		if (age < 20)
+			System.out.println("You are not entitled to vote.");
+
+	}
+
+}
