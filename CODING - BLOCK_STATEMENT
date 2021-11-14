@@ -1,0 +1,24 @@
+package self_programming;
+
+public class BlockStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double amount=1000, balance=30000;
+		
+		if (amount <= balance) 
+		{   
+			balance = balance - amount;
+			System.out.println("Acct new balance = " + balance);
+		}
+		
+		//--------------------COMPARE WITH---------------------------
+		
+		if (amount <= balance)
+		    balance = balance - amount;
+		    System.out.println("Acct new balance = " + balance);
+
+	}
+
+}
