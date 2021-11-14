@@ -1,0 +1,38 @@
+
+/*Question: If grade is 'A', display "First Class", else if grade is 'B', display "Second Class", 
+ *          else if grade is 'C', display message "Third Class".
+ */
+
+
+
+package self_programming;
+
+import java.util.Scanner;
+
+public class Exercise_1c {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		char grade;
+		
+		System.out.print("Enter grade : ");
+		grade = sc.next().charAt(0);
+		
+		if (grade == 'A')
+			System.out.print("\nFirst Class");
+		
+		else if (grade == 'B')
+			System.out.print("\nSecond Class");
+		
+		else if (grade == 'C')
+			System.out.print("\nThird Class");
+			
+		
+		
+
+	}
+
+}
