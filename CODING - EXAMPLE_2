@@ -1,0 +1,33 @@
+
+//Question: If an employee works more than 40 hours a week, compute his overtime pay which is half of his salary.
+
+
+
+package self_programming;
+
+import java.util.Scanner;
+
+public class Example2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner input = new Scanner(System.in);
+		
+		double hour, salary, overtimePay;
+		
+		System.out.print("Enter hour : ");
+		hour = input.nextDouble();
+		
+		System.out.print("Enter salary : RM");
+		salary = input.nextDouble();
+		
+		if (hour > 40)
+		{
+			overtimePay = salary / 2;
+			System.out.println("RM" + overtimePay);
+		}
+
+	}
+
+}
